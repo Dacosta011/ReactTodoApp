@@ -1,0 +1,39 @@
+.blue,
+.red {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 0;
+}
+
+.blue {
+  /* Ellipse 2 */
+  width: 800px;
+  height: 800px;
+  left: 60%;
+  top: 400px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(67, 146, 241, 0.47) 0%,
+    rgba(163, 200, 245, 0.2) 100%
+  );
+  filter: blur(150px);
+  transform: rotate(83.64deg);
+}
+
+.red {
+  /* Ellipse 1 */
+
+  width: 800px;
+  height: 800px;
+  left: -40px;
+  top: -400px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(239, 39, 166, 0.46) 0%,
+    rgba(240, 135, 202, 0.2) 100%
+  );
+  filter: blur(150px);
+}

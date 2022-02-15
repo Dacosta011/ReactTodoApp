@@ -1,0 +1,17 @@
+.todo-list-container{
+    width: 45%;
+    height: 450px;
+    position: relative;
+    z-index: 55;
+    background-color: #c4c4c4;
+    margin-top: 20px;
+    border-radius: 25px;
+    overflow: auto;
+    box-shadow: 13px 5px 4px rgba(0, 0, 0, 0.25);
+    scrollbar-color: darkgrey;
+    scrollbar-width: thin;
+}
+
+.todo-list{
+    list-style: none;
+}
